@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" href="../img/iron-banner-seal-iron-lord1654033008_picture_item_small.ico">
+    <link rel="stylesheet" href="../css/main.css"> 
+    <style>
+        html{
+            font-size:62.5%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header  class="header"> 
+        <div class="container logo-nav-container">
+            <a href="#" class="logo">
+                <img src="../img/Triple-Horn-of-Odin-Horn-Triskelion-Norse-Viking-Symbols.jpg" alt="" class="logo-img">
+            </a>
+            
+            <nav class="navegation">
+            <ul>
+                <li><a href="../index.html">Pagina principal</a></li>      
+                <li><a href="pagina2.html">Noticias</a></li>    
+                <li><a href="pagina3.html">Acerca de nosotros</a></li>        
+                <li><a href="pagina5.html">Servicio</a></li>
+            </ul>
+            </nav>   
+        </div>   
+    </header>
+
+
+
+    <main class="main">
+        <div class="container">
+            <h1>Bienvenido a la pagina numero 4: Contacto.</h1>
+        </div>
+
+    <section class="container">
+        <h1>Contacto</h1>
+    </section>
+
+    <section class="container">
+        <form action="" class="form">
+            Nombre: <input type="text" required name="Nombre" id="nombre" placeholder="Nombre"><br>
+            <label for="email">Digite su email:
+                <input type="email" required placeholder="email">
+            </label><br>
+
+            Edad: <input type="number" required name="edad" id="edad" placeholder="Edad"><br>
+           
+            Color  favorito?
+            <select name="color" id="color">
+                <option value="Rojo">Rojo</option>
+                <option value="Verde">Verde</option>
+                <option value="Amarillo">Amarillo</option>
+                <option value="BOCA BOCA">BOCA BOCA</option>
+            </select>
+
+
+            <div>
+                Desearia recibir informacion y ofertas nuestras? 
+                <input type="checkbox" name="acepto" value="1">
+            </div>
+
+            <label for="Opiniones">Opiniones: <br>
+                <textarea name="Opiniones" placeholder="Escuba aqui su sugerencia..."></textarea>
+            </label>
+
+            <div>
+                Cuandas estrellas le da a nuestra web? 
+            <input type="range" min="0" max="5"
+            oninput="this.nextElementSibling.value = this.value">
+            <output>3</output>
+                <div>
+                    <input type="button" value="Boton / NO hace nada">
+                    <input type="submit">
+                    <input type="reset" value="reset">
+                </div>
+            </div>
+
+        </form>
+
+    </section>
+</main>
+
+    <footer class="footer">
+        <div class="foter-container">
+            <h3>Mail@gmail.com</h3>
+            <h3>Nombre de la Pagina</h3>
+    
+        </div>
+        <div  class="foter-container">
+            <h3>Facebook</h3>
+            <h3>Instagram</h3>
+            <h3>Twitter</h3>
+        </div>
+    </footer>   
+
+</body>
+</html>

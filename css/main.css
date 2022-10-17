@@ -1,0 +1,179 @@
+section h3{
+    color: crimson;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size:1.92rem;
+    line-height: 1.6em;
+    margin: 0;;
+}
+
+h1{
+    font-size: 3.2rem;
+    line-height: 1.3em;
+}
+
+p{
+    margin-bottom: 1.6em;
+}
+
+
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header{
+    background: #333;
+    color: white;
+    padding: 3.2rem 0;
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    z-index: 3;
+}
+
+    .header a{
+        color: white;
+        text-decoration: none;
+    }
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .logo{
+        letter-spacing: 15px;
+        font-size: 1.3em;
+        
+    }
+
+        .logo img{
+            height: 5rem;
+            border-radius: 50%;
+        }
+
+.navegation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+    .navegation ul li{
+        display: inline-block;
+    }
+        .navegation ul li a{
+            display: block;
+            padding: 1rem 1.5rem;
+            transition: all 0.3s linear;
+            border-radius: 5rem;
+        }
+            .navegation ul li a:hover{
+            background: #ccc;
+            }
+
+.main{
+    padding-top: 19.2rem;
+}
+
+/* .container video{
+    position: relative;
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    margin: auto;
+} */
+
+.container form{
+    background:lightblue;
+    border-radius:8rem;
+    padding: 2rem 3rem;
+    position: relative;
+    max-width: 40rem;
+    margin: auto;
+}
+
+.footer{
+    background: #f2f2f2;
+    padding: 4rem 0;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foter-container{
+    align-items: center;
+}
+
+.footer li{
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    
+}
+.footer a{
+   
+    text-decoration: none;
+    color: #333;
+    font-size: 1.17em;
+    font-weight: bold;
+    
+    
+}
+
+.media_vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43rem; 
+}
+
+
+
+
+
+
+
+.gray{
+    color:gray;
+}
+ #cantar{
+    background-color: rgb(200, 255, 0);
+}
+
+
+
+
+@media screen and (max-width: 505px){
+    .media_vid{
+        max-width: 40rem;
+        display: block;
+        margin-left: -4rem;
+        margin-right: auto;
+    }
+    .container{
+        width: auto;
+        margin: 0 auto;
+        max-width: 50.5rem;
+    }
+}
+ 
+@media screen and (max-width: 480px){
+    .header{
+        padding: 1rem; 
+        font-size: 1.5rem;
+    }  
+    .navegation ul li a{
+        padding: 1.2rem;
+    }
+}
+/* Aca metemos el media  */
+
