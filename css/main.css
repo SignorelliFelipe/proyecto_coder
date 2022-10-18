@@ -3,7 +3,7 @@ section h3{
 }
 
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+   /*  font-family: Georgia, 'Times New Roman', Times, serif; */
     color: #333;
     font-size:1.92rem;
     line-height: 1.6em;
@@ -91,14 +91,14 @@ p{
     margin: auto;
 } */
 
-.container form{
+/* .container form{
     background:lightblue;
     border-radius:8rem;
     padding: 2rem 3rem;
     position: relative;
     max-width: 40rem;
     margin: auto;
-}
+} */
 
 .footer{
     background: #f2f2f2;
@@ -135,10 +135,6 @@ p{
     margin-right: auto;
     width: 43rem; 
 }
-
-
-
-
 
 
 

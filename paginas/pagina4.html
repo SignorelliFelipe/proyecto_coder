@@ -45,61 +45,88 @@
     </section>
 
     <section class="container">
-        <form action="" class="form">
-            Nombre: <input type="text" required name="Nombre" id="nombre" placeholder="Nombre"><br>
-            <label for="email">Digite su email:
-                <input type="email" required placeholder="email">
-            </label><br>
-
-            Edad: <input type="number" required name="edad" id="edad" placeholder="Edad"><br>
-           
-            Color  favorito?
-            <select name="color" id="color">
-                <option value="Rojo">Rojo</option>
-                <option value="Verde">Verde</option>
-                <option value="Amarillo">Amarillo</option>
-                <option value="BOCA BOCA">BOCA BOCA</option>
-            </select>
-
-
-            <div>
-                Desearia recibir informacion y ofertas nuestras? 
-                <input type="checkbox" name="acepto" value="1">
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+              <div class="valid-feedback">
+                Todo correcto
+              </div>
             </div>
-
-            <label for="Opiniones">Opiniones: <br>
-                <textarea name="Opiniones" placeholder="Escuba aqui su sugerencia..."></textarea>
-            </label>
-
-            <div>
-                Cuandas estrellas le da a nuestra web? 
-            <input type="range" min="0" max="5"
-            oninput="this.nextElementSibling.value = this.value">
-            <output>3</output>
-                <div>
-                    <input type="button" value="Boton / NO hace nada">
-                    <input type="submit">
-                    <input type="reset" value="reset">
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+              <div class="valid-feedback">
+                Todo correcto
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Por favor eliga un nombre de usuario.
                 </div>
+              </div>
             </div>
-
-        </form>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">City</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Ingrese una ciudad valida.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">Provincia</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">elegir...</option>
+                <option>...</option>
+              </select>
+              <div class="invalid-feedback">
+                Por favor ingrese una provincia valida.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom05" class="form-label">Codigo postal</label>
+              <input type="text" class="form-control" id="validationCustom05" required>
+              <div class="invalid-feedback">
+                Por favor ingrese un Codigo postal valido.
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Aceptar terminos y condiciones.
+                </label>
+                <div class="invalid-feedback">
+                  Usted debe aceptar los terminos y condiciones.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Enviar formulario.</button>
+            </div>
+          </form>
 
     </section>
 </main>
 
-    <footer class="footer">
-        <div class="foter-container">
-            <h3>Mail@gmail.com</h3>
-            <h3>Nombre de la Pagina</h3>
-    
-        </div>
-        <div  class="foter-container">
-            <h3>Facebook</h3>
-            <h3>Instagram</h3>
-            <h3>Twitter</h3>
-        </div>
-    </footer>   
+<footer class="footer">
+    <div class="foter-container">
+        <h3>Mail@gmail.com</h3>
+        <h3>Nombre de la Pagina</h3>
+   
+    </div>
+    <div  class="foter-container">
+        <ul class="redes">
+            <li><a href="https://es-la.facebook.com/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank">Instragram</a></li>
+            <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+        </ul>
+    </div>
+</footer>  
     <script src="../js/bootstrap.bundle.js"></script>
 </body>
 </html>
