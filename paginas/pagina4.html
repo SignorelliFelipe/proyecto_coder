@@ -26,8 +26,8 @@
             <ul>
                 <li><a href="../index.html">Pagina principal</a></li>      
                 <li><a href="pagina2.html">Noticias</a></li>    
-                <li><a href="pagina3.html">Acerca de nosotros</a></li>        
-                <li><a href="pagina5.html">Servicio</a></li>
+                <li><a href="pagina3.html">Productos</a></li>        
+                <li><a href="pagina5.html">Compras</a></li>
             </ul>
             </nav>   
         </div>   
@@ -48,14 +48,14 @@
         <form class="row g-3 needs-validation" novalidate>
             <div class="col-md-4">
               <label for="validationCustom01" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+              <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" required>
               <div class="valid-feedback">
                 Todo correcto
               </div>
             </div>
             <div class="col-md-4">
               <label for="validationCustom02" class="form-label">Apellido</label>
-              <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+              <input type="text" class="form-control" id="validationCustom02"  placeholder="Apellido" required>
               <div class="valid-feedback">
                 Todo correcto
               </div>
@@ -64,15 +64,15 @@
               <label for="validationCustomUsername" class="form-label">Username</label>
               <div class="input-group has-validation">
                 <span class="input-group-text" id="inputGroupPrepend">@</span>
-                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="Username" required>
                 <div class="invalid-feedback">
                   Por favor eliga un nombre de usuario.
                 </div>
               </div>
             </div>
             <div class="col-md-6">
-              <label for="validationCustom03" class="form-label">City</label>
-              <input type="text" class="form-control" id="validationCustom03" required>
+              <label for="validationCustom03" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="validationCustom03" placeholder="Ciudad" required>
               <div class="invalid-feedback">
                 Ingrese una ciudad valida.
               </div>
@@ -81,7 +81,28 @@
               <label for="validationCustom04" class="form-label">Provincia</label>
               <select class="form-select" id="validationCustom04" required>
                 <option selected disabled value="">elegir...</option>
-                <option>...</option>
+                <option>Buenos Aires</option>
+                <option>Catamarca</option>
+                <option>Chaco</option>
+                <option>Chubut</option>
+                <option>Córdoba</option>
+                <option>Corrientes</option>
+                <option>Entre Ríos</option>
+                <option>Formosa	</option>
+                <option>Jujuy</option>
+                <option>La Pampa</option>
+                <option>La Rioja</option>
+                <option>Mendoza</option>
+                <option>Misiones</option>
+                <option>Río Negro	</option>
+                <option>Salta</option>
+                <option>San Juan</option>
+                <option>San Luis</option>
+                <option>Santa Cruz</option>
+                <option>Santa Fe</option>
+                <option>Santiago del Estero	</option>
+                <option>Tierra del Fuego</option>
+                <option>Tucumán</option>
               </select>
               <div class="invalid-feedback">
                 Por favor ingrese una provincia valida.
@@ -89,7 +110,7 @@
             </div>
             <div class="col-md-3">
               <label for="validationCustom05" class="form-label">Codigo postal</label>
-              <input type="text" class="form-control" id="validationCustom05" required>
+              <input type="text" class="form-control" id="validationCustom05"  placeholder="Codigo Postal" required>
               <div class="invalid-feedback">
                 Por favor ingrese un Codigo postal valido.
               </div>
@@ -107,6 +128,7 @@
             </div>
             <div class="col-12">
               <button class="btn btn-primary" type="submit">Enviar formulario.</button>
+              <button class="btn btn-primary" type="reset">Resetear formulario.</button>
             </div>
           </form>
 
