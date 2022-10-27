@@ -1,56 +1,19 @@
-.header{
-    background: #333;
-    color: white;
-    padding: 3.2rem 0;
-    position: fixed;
-    left: 0;
-    top:0;
-    width: 100%;
-    z-index: 3;
+/* IMPORTS */
 
 
-    .a{
-        color: white;
-        text-decoration: none;
-    }
+/* MISC */ 
 
-    .logo-nav-container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    
+@import './misc/normalize';
 
-        .logo{
-            letter-spacing: 15px;
-            font-size: 1.3em;
-        
-        }
+/* PARTIALS */
 
-            &-img{
-                height: 5rem;
-                border-radius: 50%;
-            }
-    }
+@import './partials/header';
+@import './partials/footer';
 
-    .navegation ul{
-        margin: 0;
-        padding: 0;
-        list-style: none;
+/* PAGES  */
 
-    
-        .li{
-            display: inline-block;
-        
-            .a{
-                display: block;
-                padding: 1rem 1.5rem;
-                transition: all 0.3s linear;
-                border-radius: 5rem;
-
-                &:hover{
-                    background: #ccc;
-                }
-            }
-        }
-    }
-}
+@import './pages/index';
+@import './pages/pagina2';
+@import './pages/pagina3';
+@import './pages/pagina4';
+@import './pages/pagina5';

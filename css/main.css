@@ -1,9 +1,8 @@
-section h3{
+/* section h3{
     color: crimson;
-}
-
-body{
-   /*  font-family: Georgia, 'Times New Roman', Times, serif; */
+} */
+/* body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #333;
     font-size:1.92rem;
     line-height: 1.6em;
@@ -81,7 +80,7 @@ p{
 
 .main{
     padding-top: 19.2rem;
-}
+} */
 
 /* .container video{
     position: relative;
@@ -100,7 +99,7 @@ p{
     margin: auto;
 } */
 
-.footer{
+/* .footer{
     background: #f2f2f2;
     padding: 4rem 0;
     margin-top: 6rem;
@@ -119,26 +118,23 @@ p{
     margin-block-end: 1em;
     
 }
-.footer a{
-   
+.footer a{  
     text-decoration: none;
     color: #333;
     font-size: 1.17em;
-    font-weight: bold;
-    
-    
-}
+    font-weight: bold;   
+} */
 
-.media_vid{
+/* .media_vid{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 43rem; 
 }
+ */
 
 
-
-.gray{
+/* .gray{
     color:gray;
 }
  #cantar{
@@ -170,6 +166,6 @@ p{
     .navegation ul li a{
         padding: 1.2rem;
     }
-}
+} */
 /* Aca metemos el media  */
 

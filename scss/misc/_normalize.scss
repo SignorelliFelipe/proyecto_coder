@@ -1,0 +1,37 @@
+body{
+    /*  font-family: Georgia, 'Times New Roman', Times, serif; */
+     color: #333;
+     font-size:1.92rem;
+     line-height: 1.6em;
+     margin: 0;;
+ }
+ 
+ h1{
+     font-size: 3.2rem;
+     line-height: 1.3em;
+ }
+ 
+ p{
+     margin-bottom: 1.6em;
+ }
+ 
+.main{
+    padding-top: 19.2rem;
+}
+ 
+ .container{
+     width: 85%;
+     max-width: 850px;
+     margin: 0 auto;
+ }
+
+html{
+    font-size:62.5%;
+}
+
+.media_vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43rem; 
+}
