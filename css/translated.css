@@ -52,23 +52,25 @@ html {
     .header .logo-nav-container .logo {
       letter-spacing: 15px;
       font-size: 1.3em; }
-    .header .logo-nav-container .logo-img {
-      height: 5rem;
-      border-radius: 50%; }
-  .header .navegation ul {
+      .header .logo-nav-container .logo-img {
+        height: 6rem;
+        border-radius: 50%; }
+  .header .menu {
     margin: 0;
     padding: 0;
     list-style: none; }
-    .header .navegation ul li {
+    .header .menu .menu__item {
       display: inline-block; }
-      .header .navegation ul li a {
+      .header .menu .menu__item .menu__link, .header .menu .menu__item .menu__link--active {
         display: block;
         padding: 1rem 1.5rem;
         transition: all 0.3s linear;
         border-radius: 5rem;
         color: white;
         text-decoration: none; }
-        .header .navegation ul li a:hover {
+        .header .menu .menu__item .menu__link--active {
+          border-bottom: 2px solid #3056d4; }
+        .header .menu .menu__item .menu__link:hover, .header .menu .menu__item .menu__link--active:hover {
           background: #ccc; }
 
 @media screen and (max-width: 505px) {
@@ -95,7 +97,9 @@ html {
   margin-top: 6rem;
   display: flex;
   justify-content: space-evenly;
-  align-items: center; }
+  align-items: center;
+  /*     bottom: 0%;
+    margin-top: 0rem; */ }
   .footer .foter-container {
     align-items: center; }
     .footer .foter-container h3 {
@@ -112,6 +116,15 @@ html {
         font-weight: bold; }
 
 /* PAGES  */
+p {
+  /*  padding: 0; */
+  margin-top: 2rem;
+  margin-bottom: 4rem; }
+
+section {
+  padding: 5rem;
+  margin: 5rem; }
+
 article {
   padding: 3rem; }
 
@@ -120,3 +133,27 @@ a {
 
 h2 {
   font-size: 2.5rem; }
+
+label {
+  font-size: 2.5rem; }
+
+input {
+  font-size: 2rem; }
+  input::placeholder {
+    font-size: 1.6rem; }
+
+option {
+  font-size: 1.6rem; }
+
+.main section a {
+  align-items: center;
+  justify-content: center;
+  padding: 0%; }
+
+.main article {
+  padding: 3rem;
+  border: 1px solid #4343c4; }
+
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 2rem; } }

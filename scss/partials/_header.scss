@@ -24,35 +24,43 @@
         .logo{
             letter-spacing: 15px;
             font-size: 1.3em;
+
+            &-img{
+                height: 6rem;
+                border-radius: 50%;
+            }
         
         }
 
-            .logo-img{
-                height: 5rem;
-                border-radius: 50%;
-            }
+            
     }
 
-    .navegation ul{
+    .menu{
         margin: 0;
         padding: 0;
         list-style: none;
 
     
-        li{
+        .menu__item{
             display: inline-block;
         
-            a{
+            .menu__link{
                 display: block;
                 padding: 1rem 1.5rem;
                 transition: all 0.3s linear;
                 border-radius: 5rem;
                 color: white;
                 text-decoration: none;
+                
+                &--active{
+                    @extend .menu__link;
+                    border-bottom: 2px solid rgb(48, 86, 212);
+                }
 
                 &:hover{
                     background: #ccc;
                 }
+
             }
         }
     }
