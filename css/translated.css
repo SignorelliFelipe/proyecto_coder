@@ -125,14 +125,32 @@ section {
   padding: 5rem;
   margin: 5rem; }
 
-article {
-  padding: 3rem; }
-
+/* article{
+    padding: 3rem;
+    border: 1px solid rgb(67, 67, 196);
+} */
 a {
   padding: 3rem; }
 
 h2 {
   font-size: 2.5rem; }
+
+.main .container .tabla_precios {
+  border-collapse: collapse;
+  width: 100%; }
+  .main .container .tabla_precios th, .main .container .tabla_precios td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; }
+  .main .container .tabla_precios th {
+    font-size: larger; }
+
+.main .container tr:hover {
+  background-color: #508ee0; }
+
+.main .container .aviso {
+  font-size: 2.3rem;
+  color: #790b0b; }
 
 label {
   font-size: 2.5rem; }
@@ -150,7 +168,7 @@ option {
   justify-content: center;
   padding: 0%; }
 
-.main article {
+.main .article_color {
   padding: 3rem;
   border: 1px solid #4343c4; }
 
