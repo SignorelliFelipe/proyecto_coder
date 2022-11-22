@@ -24,16 +24,22 @@ h2{
                 font-size: larger;
             }
               
+            tr:hover {
+                background-color: rgb(80, 142, 224);
+            }
           }
        
-        tr:hover {
-            background-color: rgb(80, 142, 224);
-        }
+
 
         .aviso{
             font-size: 2.3rem;
             color: rgb(121, 11, 11);
         }
+
+        .texto_runa{
+            padding: 3rem;
+        }
     }
+    
    
 }

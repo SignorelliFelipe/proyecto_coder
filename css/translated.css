@@ -144,13 +144,15 @@ h2 {
     border-bottom: 1px solid #ddd; }
   .main .container .tabla_precios th {
     font-size: larger; }
-
-.main .container tr:hover {
-  background-color: #508ee0; }
+  .main .container .tabla_precios tr:hover {
+    background-color: #508ee0; }
 
 .main .container .aviso {
   font-size: 2.3rem;
   color: #790b0b; }
+
+.main .container .texto_runa {
+  padding: 3rem; }
 
 label {
   font-size: 2.5rem; }
