@@ -116,14 +116,21 @@ html {
         font-weight: bold; }
 
 /* PAGES  */
-p {
+main p {
   /*  padding: 0; */
   margin-top: 2rem;
   margin-bottom: 4rem; }
 
-section {
+main section {
   padding: 5rem;
   margin: 5rem; }
+
+main .container .ayuda_gif {
+  display: flex;
+  justify-content: space-between; }
+  main .container .ayuda_gif .gif_estetico {
+    width: 10rem;
+    height: 10rem; }
 
 /* article{
     padding: 3rem;
