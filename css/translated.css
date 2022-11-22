@@ -132,6 +132,13 @@ main .container .ayuda_gif {
     width: 10rem;
     height: 10rem; }
 
+@media screen and (max-width: 505px) {
+  .media_vid {
+    max-width: 40rem;
+    display: block;
+    margin-left: -4rem;
+    margin-right: auto; } }
+
 /* article{
     padding: 3rem;
     border: 1px solid rgb(67, 67, 196);
